@@ -1,0 +1,16 @@
+{
+  "name": "mongodbweb-backend",
+  "version": "1.0.0",
+  "description": "A backend application that connects to MongoDB and serves user data.",
+  "main": "src/mongodbweb.js",
+  "scripts": {
+    "start": "node src/mongodbweb.js"
+  },
+  "dependencies": {
+    "mongodb": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "MIT"
+}
