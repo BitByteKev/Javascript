@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "test": "NODE_OPTIO=--experimental-vm-modules jest"
+    "test": "NODE_OPTION=--experimental-vm-modules jest"
   },
   "dependencies": {
     "mongodb": "^6.18.0",
@@ -17,15 +17,19 @@
     "react-dom": "^19.1.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.28.0",
+    "@babel/preset-env": "^7.28.0",
     "@eslint/js": "^9.30.1",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
     "@vitejs/plugin-react": "^4.6.0",
+    "babel-jest": "^30.0.5",
     "eslint": "^9.30.1",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
     "jest": "^30.0.5",
+    "mongodb-memory-server": "^10.2.0",
     "vite": "^7.0.4"
   }
 }
