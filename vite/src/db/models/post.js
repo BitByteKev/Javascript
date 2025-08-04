@@ -7,6 +7,8 @@ const postSchema = new Schema({
         author: String,
         contents: String,
         tags: [String],
-    });
+    },
+    { timestamps: true}
+);
 
     export const Post = mongoose.model('Post', postSchema); 
